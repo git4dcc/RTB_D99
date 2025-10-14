@@ -7,7 +7,7 @@ My Homebrew D99 decoder core is designed to drive various custom made LED strips
 
 
 > [!CAUTION]
-> This project is 'work in progress' and there is more to come.
+> This project is **work in progress** and there may be (hope not) changes to the overall design if the current turns out to be not practical.
 
 
 <details>
