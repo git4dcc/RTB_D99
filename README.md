@@ -45,10 +45,8 @@ The layout has been optimized to automatic PCB assembly.
 - 4-layer PCB, FR4, 1mm
 - CPU: AVR64DA48
 
-[Schematic](doc/D13_schematic.pdf) | [Layout](doc/D13_layout.pdf)
-
 ## Kicad
-[Schematic](doc/D13_schematic.pdf) | [Layout](doc/D13_layout.pdf) | [Gerber](gerber)
+[Schematic](doc/D99_schematic.pdf) | [Layout](doc/D99_layout.pdf) | [Gerber](gerber)
 
 <details>
 <summary>Dependency</summary>
