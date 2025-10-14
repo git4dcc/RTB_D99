@@ -5,6 +5,11 @@
 
 My Homebrew D99 decoder core is designed to drive various custom made LED strips. The core can address up to 32 individual LEDs.
 
+
+> [!CAUTION]
+> This project is 'work in progress' and there is more to come.
+
+
 <details>
 <summary>User Guides</summary>
 
