@@ -60,11 +60,11 @@ The layout has been optimized to automatic PCB assembly.
 ## Firmware
 Filename structure: { **pcb** }{ **code** }{ **version** }.hex
 
-Example: **D13F0001**.hex
+Example: **D99F0001**.hex
 
 |   | Description |
 | --- | --- |
-| **pcb** | Name of matching hardware (**D13**) |
+| **pcb** | Name of matching hardware (**D99**) |
 | **code** | Type of code contained (**R**=rom, **B**=bootloader, **F**=flash, **U**=bld update, **P**=UPDI factory code) |
 | **version** | Release version (**####**) |
 
@@ -72,7 +72,7 @@ Example: **D13F0001**.hex
 <img src="supplemental/images/D99_usecase1.jpg" width=300> <img src="supplemental/images/D99_usecase2.jpg" width=500>
 
 # YouTube
-See the D13 decoder in action.<br><br>
-[<img src="https://img.youtube.com/vi/czScUCT7jxQ.jpg" width=260>](https://www.youtube.com/watch?v=czScUCT7jxQ)
+See the D99 decoder in action.<br><br>
+[<img src="https://img.youtube.com/vi/czScUCT7jxQ/0.jpg" width=260>](https://www.youtube.com/watch?v=czScUCT7jxQ)
 
 This project is intended for hobby use only and is distributed in accordance with the Apache License 2.0 agreement.
