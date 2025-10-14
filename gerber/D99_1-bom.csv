@@ -1,0 +1,32 @@
+Value,Designator,Footprint,JLCPCB Part#,Description
+100n,"C1,C2,C3,C5",Capacitor_SMD:C_0402_1005Metric,C1525,100nF 16V X7R ñ10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+10u/35V,"C4,C12,C13",Capacitor_SMD:C_0603_1608Metric,C194427,10uF 35V X5R ñ20% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+10uF/10V,"C6,C7,C8,C9,C10,C11",Capacitor_SMD:C_0603_1608Metric,C19702,10V 10uF X5R ñ10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS
+BAS3007ARPPE6327HTSA1,D4,BF998215,C6430958,30V 350uA@30V 5A 600mV@700mA 900mA SOT-143 Schottky Diodes ROHS
+NSR20F40NXT5G,"D5,D6",Diode_SMD:D_0603_1608Metric,C153761,150uA@40V 2A 40V 550mV@2A 0603 Schottky Diodes ROHS
+TPS560430YFQDBVRQ1,IC1,SOT95P280X145-6N,C1849549,-40?~+125?@(TJ) 1 2.1MHz 4V~36V 600mA Adjustable Buck Buck Built-In Yes SOT-23-6 DC-DC Converters ROHS
+NCP730BMT1500TBG,IC2,SON65P200X200X80-7N,C892817,"-40?~+125?@(Tj) 1 1.8uA 150mA 15V 38V 48dB@(1MHz) Fixed Positive Under Voltage Lockout WDFN-6-EP(2x2) Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"
+744029004,"L1,L2",RTB:WE-TPC_282892,C2649333,"170mê 4.7uH 800mA 800mA ñ30% SMD,2.8x2.8mm Power Inductors ROHS"
+BC847BDW1,"Q1,Q3",Package_TO_SOT_SMD:SOT-363_SC-70-6,C82368,"-55?~+150? 100MHz 100mA 150@10uA,5.0V 250mV 380mW 45V 5uA NPN SOT-363 Bipolar (BJT) ROHS"
+BC857BDW1,Q2,Package_TO_SOT_SMD:SOT-363_SC-70-6,C383198,"-55?~+150? 100MHz 100mA 150@2.0mA,5.0V 15nA 250mW 45V 5V 650mV PNP SOT-363(SC-88) Bipolar (BJT) ROHS"
+4.7k,"R1,R27",Resistor_SMD:R_0402_1005Metric,C25900,-55?~+155? 4.7kê 50V 62.5mW Thick Film Resistor ñ1% ñ100ppm/? 0402 Chip Resistor - Surface Mount ROHS
+22,"R11,R16",Resistor_SMD:R_0402_1005Metric,C25092,-55?~+155? 22ê 50V 62.5mW Thick Film Resistor ñ1% ñ100ppm/? 0402 Chip Resistor - Surface Mount ROHS
+5.1k,R12,Resistor_SMD:R_0402_1005Metric,C25905,-55?~+155? 5.1kê 50V 62.5mW Thick Film Resistor ñ1% ñ100ppm/? 0402 Chip Resistor - Surface Mount ROHS
+10k,"R13,R14,R18",Resistor_SMD:R_0402_1005Metric,C25744,-55?~+155? 10kê 50V 62.5mW Thick Film Resistor ñ1% ñ100ppm/? 0402 Chip Resistor - Surface Mount ROHS
+3.3k,R15,Resistor_SMD:R_0402_1005Metric,C25890,-55?~+155? 3.3kê 50V 62.5mW Thick Film Resistor ñ1% ñ100ppm/? 0402 Chip Resistor - Surface Mount ROHS
+220k,"R19,R20",Resistor_SMD:R_0402_1005Metric,C25767,-55?~+155? 220kê 50V 62.5mW Thick Film Resistor ñ1% ñ100ppm/? 0402 Chip Resistor - Surface Mount ROHS
+47k,"R2,R3,R17",Resistor_SMD:R_0402_1005Metric,C25792,-55?~+155? 47kê 50V 62.5mW Thick Film Resistor ñ1% ñ100ppm/? 0402 Chip Resistor - Surface Mount ROHS
+200,R21,Resistor_SMD:R_0603_1608Metric,C8218,-55?~+155? 100mW 200ê 75V Thick Film Resistor ñ1% ñ100ppm/? 0603 Chip Resistor - Surface Mount ROHS
+9.1k,"R22,R23",Resistor_SMD:R_0402_1005Metric,C25926,-55?~+155? 50V 62.5mW 9.1kê Thick Film Resistor ñ1% ñ100ppm/? 0402 Chip Resistor - Surface Mount ROHS
+75,R24,Resistor_SMD:R_0603_1608Metric,C4275,-55?~+155? 100mW 75V 75ê Thick Film Resistor ñ1% ñ100ppm/? 0603 Chip Resistor - Surface Mount ROHS
+120k,R25,Resistor_SMD:R_0402_1005Metric,C25750,-55?~+155? 120kê 50V 62.5mW Thick Film Resistor ñ1% ñ100ppm/? 0402 Chip Resistor - Surface Mount ROHS
+68k,R26,Resistor_SMD:R_0402_1005Metric,C36871,-55?~+155? 50V 62.5mW 68kê Thick Film Resistor ñ1% ñ100ppm/? 0402 Chip Resistor - Surface Mount ROHS
+169k,R28,Resistor_SMD:R_0402_1005Metric,C25758,-55?~+155? 169kê 50V 62.5mW Thick Film Resistor ñ1% ñ100ppm/? 0402 Chip Resistor - Surface Mount ROHS
+51k,R6,Resistor_SMD:R_0402_1005Metric,C25794,-55?~+155? 50V 51kê 62.5mW Thick Film Resistor ñ1% ñ100ppm/? 0402 Chip Resistor - Surface Mount ROHS
+22k,R7,Resistor_SMD:R_0402_1005Metric,C25768,-55?~+155? 22kê 50V 62.5mW Thick Film Resistor ñ1% ñ100ppm/? 0402 Chip Resistor - Surface Mount ROHS
+6.8k,R77,Resistor_SMD:R_0603_1608Metric,C23212,-55?~+155? 100mW 6.8kê 75V Thick Film Resistor ñ1% ñ100ppm/? 0603 Chip Resistor - Surface Mount ROHS
+4.7k,"R4,R5,R8",Resistor_SMD:R_0603_1608Metric,C23162,-55?~+155? 100mW 4.7kê 75V Thick Film Resistor ñ1% ñ100ppm/? 0603 Chip Resistor - Surface Mount ROHS
+470,"R9,R10",Resistor_SMD:R_0402_1005Metric,C25117,-55?~+155? 470ê 50V 62.5mW Thick Film Resistor ñ1% ñ100ppm/? 0402 Chip Resistor - Surface Mount ROHS
+AVR-64DA48,U1,Package_DFN_QFN:UQFN-48-1EP_6x6mm_P0.4mm_EP4.62x4.62mm,C3227399,1.8V~5.5V 10bit 12bit 24MHz 41 64KB AVR VQFN-48(6x6) Microcontrollers (MCU/MPU/SOC) ROHS
+MCP1640BCH,U3,Package_TO_SOT_SMD:SOT-23-6,C478087,-40?~+125?@(TJ) 1 19uA 2V~5.5V 350mA 500kHz 800mV~5.5V Adjustable Boost Boost Built-In Yes SOT-23-6 DC-DC Converters ROHS
+MAX40203AUK,"U2,U4",Package_TO_SOT_SMD:SOT-23-5,C2653639,-40?~+125? 1.2V~5.5V 200mV 300nA 6V SOT-23-5 ORing Controllers ROHS
