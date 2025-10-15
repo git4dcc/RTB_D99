@@ -65,7 +65,32 @@ The layout has been optimized to automatic PCB assembly.
 <details>
 <summary>Details</summary>
 
-<img src="supplemental/images/D99_pinout.jpg" width=50%>
+<br>
+<img src="supplemental/images/D99_pinout.jpg">
+<br><br>
+
+| pin | label | direction | description |
+| --- | --- | --- | --- |
+| 1 | DCC-b | input | DCC signal from track |
+| 3 | DCC-1 | input | DCC signal from track |
+| 5 | GND | output | Decoder ground signal (after rectifier) |
+| 7 | AUX-4 | output | Logic level auxiliary port (3.3V) |
+| 9 | AUX-3 | output | Logic level auxiliary port (3.3V) |
+| 11 | AUX-2 | output | Logic level auxiliary port (3.3V) |
+| 13 | AUX-1 | output | Logic level auxiliary port (3.3V) |
+| 15 | GND | output | same as pin 5 |
+| 17 | VTRK | output | (+) Track voltage after rectifier (goes up to 25V) |
+| 19 | NCAP | output | (+) Connect to external polymer capacitors (cap must tolerate 16V) |
+| 2 | 3V3 | output | (+) Decoder CPU voltage (3.3V) |
+| 4 | SUSI_clk | output | SUSI clock signal (3.3V) |
+| 6 | SUSI_dat | output | SUSI data signal (3.3V) |
+| 8 | uOpto | input | Connects an optional ambient light sensor |
+| 10 | UPDI | in/out | CPU programming port |
+| 12 | LED.oe | output | Connect to HC595 shift register output enable pin |
+| 14 | LED.stcp | output | Connect to HC595 shift register staging clock pin |
+| 16 | LED.ds | output | Connect to HC595 shift register data pin |
+| 18 | LED.ds | output | Connect to HC595 shift register shift clock pin |
+| 20 | SCAP | output | (+) Connect to external supercap (cap must tolerate 2.8V) |
 
 </details>
 
