@@ -2368,6 +2368,17 @@
 		)
 		(uuid "60b4ab56-2c05-4778-9bda-41aec73834da")
 	)
+	(text "Top View (J1 pins facing down)"
+		(exclude_from_sim no)
+		(at 221.234 133.604 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+		)
+		(uuid "67c5f5b8-ae03-4adc-abaf-f4f8655e134d")
+	)
 	(text "COM-4 (default)"
 		(exclude_from_sim no)
 		(at 39.37 85.09 0)
