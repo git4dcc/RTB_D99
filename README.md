@@ -9,7 +9,7 @@ My Homebrew RTB D99 is an advanced, open-source decoder core (AVR64DA48) designe
 - **DIY High-Density:** Fully open-source KiCad design (4-layer PCB) ready for reflow assembly.
 
 LED base
-- [Roco #44741](ledbase/Roco_44741)
+- [HO Roco #44741 coach](ledbase/Roco_44741)
 
 <br>
 
