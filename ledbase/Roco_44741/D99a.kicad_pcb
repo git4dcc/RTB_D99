@@ -3134,7 +3134,7 @@
 				)
 			)
 		)
-		(property "Value" "330u/16V"
+		(property "Value" "470u/16V"
 			(at 0 3.95 90)
 			(layer "F.Fab")
 			(uuid "adf53d40-dbc4-468e-831b-d605a07e4223")
@@ -3157,7 +3157,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+105℃ 16V 470uF 70mΩ@100kHz ±20% CASE-H-7360-20(mm) Tantalum Capacitors ROHS"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3165,6 +3165,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C600599"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4981e20-989a-4d7b-97bf-80074275401c")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3354,7 +3367,7 @@
 				)
 			)
 		)
-		(property "Value" "330u/16V"
+		(property "Value" "470u/16V"
 			(at 0 3.95 90)
 			(layer "F.Fab")
 			(uuid "d7c9f53f-a081-488c-93fd-1316ddeac4d7")
@@ -3385,6 +3398,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C600599"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa8a2ca3-6640-48f9-8cfa-a0ab26970744")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3573,7 +3599,7 @@
 				)
 			)
 		)
-		(property "Value" "330u/16V"
+		(property "Value" "470u/16V"
 			(at 0 3.95 90)
 			(layer "F.Fab")
 			(uuid "8e6fae93-299d-44ec-8e46-533805c8f163")
@@ -3604,6 +3630,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C600599"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18075276-4a22-4272-88ca-725285d5c0bf")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -3816,7 +3855,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 1kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 120Ω 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3828,7 +3867,7 @@
 				)
 			)
 		)
-		(property "JLCPCB" "C21190"
+		(property "JLCPCB" "C25079"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4029,7 +4068,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 330kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4037,6 +4076,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25778"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d755e1db-8746-49e4-aba2-fa55eda37ee2")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4229,7 +4281,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 22kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4237,6 +4289,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25768"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f95c99a2-6be9-44a9-8ba2-ac3e79441ad3")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4428,7 +4493,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-55℃~+155℃ 330kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4436,6 +4501,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" "C25778"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "862acbe4-ed23-410b-b40d-327b77e27fd8")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4635,6 +4713,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc603f0a-f173-46f0-b391-2b5405502dc1")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -4981,6 +5072,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06f402dc-7f64-44cd-b0b1-cf66ec33a6cc")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6701,7 +6805,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-40℃~+125℃ 19ns@4.5V,50pF 2V~6V 74HC 8 Serial-to-Serial or Parallel Tri-State DHVQFN-16-EP(2.5x3.5) Shift Registers ROHS"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -6709,6 +6813,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part #" "C730243"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c4052f43-f97b-486d-9342-b4ba3b272981")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -7102,7 +7220,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-40℃~+125℃ 19ns@4.5V,50pF 2V~6V 74HC 8 Serial-to-Serial or Parallel Tri-State DHVQFN-16-EP(2.5x3.5) Shift Registers ROHS"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -7110,6 +7228,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part #" "C730243"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c18d04a0-ad4a-4837-90e4-9a562e6418f7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -7502,7 +7634,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-40℃~+125℃ 19ns@4.5V,50pF 2V~6V 74HC 8 Serial-to-Serial or Parallel Tri-State DHVQFN-16-EP(2.5x3.5) Shift Registers ROHS"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -7510,6 +7642,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part #" "C730243"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d6a4bf80-d1b4-43f6-93b2-45306312b1b7")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -19196,7 +19342,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-40℃~+125℃ 19ns@4.5V,50pF 2V~6V 74HC 8 Serial-to-Serial or Parallel Tri-State DHVQFN-16-EP(2.5x3.5) Shift Registers ROHS"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -19204,6 +19350,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part #" "C730243"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2ad8e136-88c0-4a2e-933c-6ee12a075a30")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -20702,7 +20862,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-40℃~+100℃ 150mW 16V 400nm~690nm 5nA 60° 620nm SMD Photodiodes ROHS"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20711,6 +20871,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC Part #" "C2900227"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "142436b2-ea45-4b84-9c33-7087c60f0751")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)

@@ -5,12 +5,12 @@
 	(uuid "2e19a74d-4287-4dcb-a839-65c1c2ddd0e8")
 	(paper "A4")
 	(title_block
-		(title "Coach LED carrier PCB")
-		(date "2025-02-18")
-		(rev "0")
+		(title "LED base: Roco #44741")
+		(date "2025-10-19")
+		(rev "1")
 		(company "Frank Schumacher")
 		(comment 1 "D99a")
-		(comment 2 "Prototype 1")
+		(comment 2 "Prototype")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"

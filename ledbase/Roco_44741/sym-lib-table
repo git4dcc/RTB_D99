@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name RTB)(type Legacy)(uri ${KIPRJMOD}/../SamacSys/SamacSys_Parts.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "RTB")(type "Legacy")(uri "${KIPRJMOD}/../../../SamacSys/SamacSys_Parts.lib")(options "")(descr ""))
 )
