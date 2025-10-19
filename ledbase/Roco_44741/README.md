@@ -18,33 +18,16 @@ My Homebrew RTB D99 is an advanced, open-source decoder core (AVR64DA48) designe
 <img src="supplemental/images/D99a_main.jpg" width=700>
 <br>
 
-## Decoder features
-- **DCC**
-  - DCC-A automatic logon
-  - DCC-R protocol extension
-  - Service Mode Programming
-- **Railcom**
-  - Channel 1/2
-  - POM, xPOM
-  - DYN: QoS, Track-Voltage, Scap-Voltage, Temp, Ambient light
-- **AUX ports**
-  - 4 AUX ports (3.3V logic level)
-  - AUX ports my be used for Servo
+## LED base features
 - **LED ports**
-  - designed for 74HC595 shift register usage
-  - allows up to 32 individual LEDs
+  - 4x 74HC595 shift register
+  - 31 individual LEDs
 - SUSI 3.3V
-- 2.8V SCAP (optional, external to PCB)
-- 16V Polymer Caps (optional, external to PCB)
-- Inrush limited
-- max track voltage 25V
-- CPU heartbeat LED
-- ambient light sensor (optional)
-- fast firmware update within seconds on main tracks via DCC-R
+- 2.8V SCAP (optional)
+- 16V Polymer Caps (optional)
 
 # Hardware
-The current PCB layout uses SMD footprints with 0.4mm pitch and mainly 0402 parts. Reflow soldering is mandatory.
-The layout has been optimized to automatic PCB assembly.
+The current PCB layout uses SMD footprints. Reflow soldering is recommended.
 
 <img src="supplemental/images/D99a_top.jpg">
 <img src="supplemental/images/D99a_btm.jpg">
