@@ -13,7 +13,7 @@ PCB contains LEDs for ilse, cabin and lavatory. In addition, external tail light
 
 <br>
 
-<img src="supplemental/images/D99a_main.jpg" width=700>
+<img src="supplemental/images/D99a_main.jpg">
 <br>
 
 ## LED base features
