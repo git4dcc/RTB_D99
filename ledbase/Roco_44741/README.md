@@ -42,13 +42,13 @@ The current PCB layout uses SMD footprints. Reflow soldering is recommended.
 ## Kicad
 [Schematic](doc/D99a_schematic.pdf) | [Layout](doc/D99a_layout.pdf) | [Gerber](gerber)
 
-<details>
-<summary>Dependency</summary>
-<br>
 
 :yellow_circle: Requires my Kicad project library [RTB_SamacSys](https://github.com/git4dcc/RTB_SamacSys) in the same directory tree.
 
 </details>
 
+
+# Images
+<img src="supplemental/images/D99a_w_ctl.jpg">
 
 This project is intended for hobby use only and is distributed in accordance with the Apache License 2.0 agreement.
