@@ -23,6 +23,7 @@ PCB contains LEDs for ilse, cabin and lavatory. In addition, external tail light
 - SUSI 3.3V
 - 2.8V SCAP (optional)
 - 16V Polymer Caps (optional)
+- ambient light sensor (optional)
 
 # Hardware
 The current PCB layout uses SMD footprints. Reflow soldering is recommended.
