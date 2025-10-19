@@ -1,4 +1,4 @@
-# RTB_D99
+# LEDbase: Roco #44741
 [![Real-time Bus (RTB)](https://img.shields.io/badge/RTB_Project-FF6699)](https://www.rtb4dcc.de)
 [![Kicad_Libs](https://img.shields.io/badge/Kicad_Libs-29C7FF)](https://github.com/git4dcc/RTB_SamacSys)
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-lightgray)](https://www.apache.org/licenses/LICENSE-2.0)
@@ -15,15 +15,7 @@ My Homebrew RTB D99 is an advanced, open-source decoder core (AVR64DA48) designe
 
 <br>
 
-<details>
-<summary>User Guides</summary>
-
-- User Guide - DE
-- [User Guide - EN](https://rtb4dcc.de/rtb_decoder_reference_en/)
-
-</details>
-
-<img src="supplemental/images/D99_main.jpg" width=700>
+<img src="supplemental/images/D99a_main.jpg" width=700>
 <br>
 
 ## Decoder features
@@ -54,48 +46,19 @@ My Homebrew RTB D99 is an advanced, open-source decoder core (AVR64DA48) designe
 The current PCB layout uses SMD footprints with 0.4mm pitch and mainly 0402 parts. Reflow soldering is mandatory.
 The layout has been optimized to automatic PCB assembly.
 
-| top | bottom |
-| --- | --- |
-| <img src="supplemental/images/D99_top.jpg"> | <img src="supplemental/images/D99_btm.jpg"> |
+<img src="supplemental/images/D99a_top.jpg">
+<img src="supplemental/images/D99a_btm.jpg">
 
 ## PCB
-- 4-layer PCB, FR4, 1mm
-- CPU: AVR64DA48
+- 2-layer PCB, FR4, 1mm
+- CPU: none
 
 <details>
 <summary>Details</summary>
 
-<br>
-<img src="supplemental/images/D99_pinout.jpg">
-<br><br>
-
-| pin | label | direction | description |
-| --- | --- | --- | --- |
-| 1 | DCC-b | input | DCC signal from track |
-| 3 | DCC-1 | input | DCC signal from track |
-| 5 | GND | output | Decoder ground signal (after rectifier) |
-| 7 | AUX-4 | output | Logic level auxiliary port (3.3V) |
-| 9 | AUX-3 | output | Logic level auxiliary port (3.3V) |
-| 11 | AUX-2 | output | Logic level auxiliary port (3.3V) |
-| 13 | AUX-1 | output | Logic level auxiliary port (3.3V) |
-| 15 | GND | output | same as pin 5 |
-| 17 | VTRK | output | (+) Track voltage after rectifier (goes up to 25V) |
-| 19 | NCAP | output | (+) Connect to external polymer capacitors (cap must tolerate 16V) |
-| 2 | 3V3 | output | (+) Decoder CPU voltage (3.3V) |
-| 4 | SUSI_clk | output | SUSI clock signal (3.3V) |
-| 6 | SUSI_dat | output | SUSI data signal (3.3V) |
-| 8 | uOpto | input | Connects an optional ambient light sensor |
-| 10 | UPDI | in/out | CPU programming port |
-| 12 | LED.oe | output | Connect to HC595 shift register output enable pin |
-| 14 | LED.stcp | output | Connect to HC595 shift register staging clock pin |
-| 16 | LED.ds | output | Connect to HC595 shift register data pin |
-| 18 | LED.ds | output | Connect to HC595 shift register shift clock pin |
-| 20 | SCAP | output | (+) Connect to external supercap (cap must tolerate 2.8V) |
-
-</details>
 
 ## Kicad
-[Schematic](doc/D99_schematic.pdf) | [Layout](doc/D99_layout.pdf) | [Gerber](gerber)
+[Schematic](doc/D99a_schematic.pdf) | [Layout](doc/D99a_layout.pdf) | [Gerber](gerber)
 
 <details>
 <summary>Dependency</summary>
@@ -105,30 +68,5 @@ The layout has been optimized to automatic PCB assembly.
 
 </details>
 
-
-## Firmware
-Filename structure: { **pcb** }{ **code** }{ **version** }.hex
-
-Example: **D99F0001**.hex
-
-|   | Description |
-| --- | --- |
-| **pcb** | Name of matching hardware (**D99**) |
-| **code** | Type of code contained (**R**=rom, **B**=bootloader, **F**=flash, **U**=bld update, **P**=UPDI factory code) |
-| **version** | Release version (**####**) |
-
-[Firmware files](firmware)
-
-## UPDI
-The fuse settings as well as the P-code (D99Pxxxx.hex) has to be installed by using UPDI.<br>
-
-> to be done ...
-
-# Images
-<img src="supplemental/images/D99_usecase1.jpg" width=300> <img src="supplemental/images/D99_usecase2.jpg" width=508>
-
-# YouTube
-See the D99 decoder core prototype in action piggyback on a LED test carrier.<br><br>
-[<img src="https://img.youtube.com/vi/czScUCT7jxQ/0.jpg" width=30%>](https://www.youtube.com/watch?v=czScUCT7jxQ) [<img src="https://img.youtube.com/vi/SbPsQP1knIc/0.jpg" width=30%>](https://www.youtube.com/watch?v=SbPsQP1knIc)
 
 This project is intended for hobby use only and is distributed in accordance with the Apache License 2.0 agreement.
