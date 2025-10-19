@@ -8,6 +8,9 @@ My Homebrew RTB D99 is an advanced, open-source decoder core (AVR64DA48) designe
 - **Real-Time Diagnostics:** Harness the power of Railcom DYN to transmit vital data, including Quality of Service (QoS), track voltage, and temperature, back to your central station.
 - **DIY High-Density:** Fully open-source KiCad design (4-layer PCB) ready for reflow assembly.
 
+LED base
+- [Roco #44741](ledbase/Roco_44741)
+
 <br>
 
 > [!CAUTION]
