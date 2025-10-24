@@ -48,10 +48,10 @@ LED base
 - 2.8V SCAP (optional, external to PCB)
 - 16V Polymer Caps (optional, external to PCB)
 - Inrush limited
-- max track voltage 25V
+- max track voltage 36V
 - CPU heartbeat LED
 - ambient light sensor (optional)
-- fast firmware update within seconds on main tracks via DCC-R
+- fast firmware update on main tracks via DCC-R
 
 # Hardware
 The current PCB layout uses SMD footprints with 0.4mm pitch and mainly 0402 parts. Reflow soldering is mandatory.
@@ -62,7 +62,7 @@ The layout has been optimized to automatic PCB assembly.
 | <img src="supplemental/images/D99_top.jpg"> | <img src="supplemental/images/D99_btm.jpg"> |
 
 ## PCB
-- 4-layer PCB, FR4, 1mm
+- 4-layer PCB, FR4, 28 x 15 x 0.8mm
 - CPU: AVR64DA48
 
 <details>
