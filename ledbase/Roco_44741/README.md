@@ -49,6 +49,7 @@ The current PCB layout uses SMD footprints. Reflow soldering is recommended.
 
 
 # Images
-<img src="supplemental/images/D99a_w_ctl.jpg" width=500> <img src="supplemental/images/D99a_usecase1.jpg" width=500>
+<img src="supplemental/images/D99a_usecase2.jpg" width=365> <img src="supplemental/images/D99a_usecase1.jpg" width=630>
+<img src="supplemental/images/D99a_w_ctl.jpg">
 
 This project is intended for hobby use only and is distributed in accordance with the Apache License 2.0 agreement.
