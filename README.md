@@ -128,7 +128,7 @@ The fuse settings as well as the P-code (D99Pxxxx.hex) has to be installed by us
 > to be done ...
 
 # Images
-<img src="supplemental/images/D99_usecase1.jpg" width=300> <img src="supplemental/images/D99_usecase2.jpg" width=508>
+<img src="supplemental/images/D99_usecase4.jpg" width=260> <img src="supplemental/images/D99_usecase2.jpg" width=508>
 
 # YouTube
 See the D99 decoder core prototype in action piggyback on a LED test carrier.<br><br>
