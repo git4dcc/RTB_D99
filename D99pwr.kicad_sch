@@ -2737,6 +2737,19 @@
 		)
 		(uuid "a0c453cd-4056-418a-affc-3a15453aebac")
 	)
+	(text "If \"SuperCap Supply\" parts are\n\n> fitted:     JP1 must not be set to \"3.3V (1|2)\"\n> not fitted: JP1 must     be set to \"3.3V (1|2)\""
+		(exclude_from_sim no)
+		(at 176.022 144.78 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.2381)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "a24e4423-3c71-4f2c-9e4c-adbbfac5fe98")
+	)
 	(text "n.f."
 		(exclude_from_sim no)
 		(at 245.11 116.84 0)
@@ -2759,9 +2772,9 @@
 		)
 		(uuid "c5f64774-36a6-456e-ba58-b310675c5575")
 	)
-	(text "SuperCap Supply"
+	(text "SuperCap Supply\n(optional)"
 		(exclude_from_sim no)
-		(at 46.99 83.82 0)
+		(at 47.244 85.344 0)
 		(effects
 			(font
 				(size 1.4986 1.4986)
@@ -2817,6 +2830,20 @@
 			(justify left bottom)
 		)
 		(uuid "f4969afc-ad2b-4822-ab3a-c6b4a53056da")
+	)
+	(text "Important:"
+		(exclude_from_sim no)
+		(at 155.956 140.208 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.381)
+				(bold yes)
+				(color 194 0 194 1)
+			)
+			(justify left)
+		)
+		(uuid "fb5c99a7-fa7d-4b8f-b92c-dd96dfb80966")
 	)
 	(text "15V"
 		(exclude_from_sim no)
@@ -2968,6 +2995,12 @@
 		(uuid "5fa014d4-e938-42d0-9602-87e96cc56c16")
 	)
 	(junction
+		(at 260.35 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6772fa93-a00a-4e86-bd87-34c49e008903")
+	)
+	(junction
 		(at 233.68 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3026,6 +3059,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b43411a-56f7-4c7c-86c8-b2c683e38610")
+	)
+	(junction
+		(at 260.35 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1a3d0d1-2fd4-4dda-b898-983f8375b918")
 	)
 	(junction
 		(at 64.77 67.31)
@@ -3164,6 +3203,16 @@
 			(type dash)
 		)
 		(uuid "0afce64a-36dd-426d-ac01-64bb31a9758b")
+	)
+	(wire
+		(pts
+			(xy 260.35 52.07) (xy 260.35 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3eb9df-67d1-4928-87c1-7287deaefbd2")
 	)
 	(wire
 		(pts
@@ -3667,7 +3716,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 48.26) (xy 260.35 62.23)
+			(xy 260.35 53.34) (xy 260.35 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3837,6 +3886,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 48.26) (xy 245.11 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b38d8f4-8e83-4951-b1fc-80a201647bea")
+	)
+	(wire
+		(pts
 			(xy 260.35 35.56) (xy 261.62 35.56)
 		)
 		(stroke
@@ -3844,6 +3903,16 @@
 			(type default)
 		)
 		(uuid "5c275e3e-c836-4833-8094-933dcfd99357")
+	)
+	(wire
+		(pts
+			(xy 251.46 53.34) (xy 251.46 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ca29e46-fa9d-41e2-83d0-9ef88cf8fc2f")
 	)
 	(wire
 		(pts
@@ -4127,7 +4196,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 48.26) (xy 260.35 48.26)
+			(xy 251.46 53.34) (xy 260.35 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4484,6 +4553,16 @@
 			(type default)
 		)
 		(uuid "b6c00956-8c91-4797-9fe1-9acfcaf0a14b")
+	)
+	(wire
+		(pts
+			(xy 260.35 43.18) (xy 260.35 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb04036-5011-4782-9527-2266be2933fa")
 	)
 	(wire
 		(pts
@@ -5977,7 +6056,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060facd59")
-		(property "Reference" "Q3B"
+		(property "Reference" "Q3B1"
 			(at 128.016 171.5516 0)
 			(effects
 				(font
@@ -6052,7 +6131,7 @@
 		(instances
 			(project "D99"
 				(path "/df79ce8b-a870-46f6-824c-d442122538ae/00000000-0000-0000-0000-00005ca7768a"
-					(reference "Q3B")
+					(reference "Q3B1")
 					(unit 2)
 				)
 			)
@@ -7884,7 +7963,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "RTB:NSR20F40NXT5G"
 			(at 100.33 45.72 0)
 			(effects
 				(font
@@ -7961,7 +8040,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+		(property "Footprint" "RTB:NSR20F40NXT5G"
 			(at 251.46 35.56 0)
 			(effects
 				(font
@@ -8187,7 +8266,7 @@
 				)
 			)
 		)
-		(property "Value" "744029004"
+		(property "Value" "4.7uH, 0.8A"
 			(at 209.55 93.1164 0)
 			(effects
 				(font
@@ -8266,7 +8345,7 @@
 				)
 			)
 		)
-		(property "Value" "744029004"
+		(property "Value" "10uH, 1A"
 			(at 134.62 28.3464 0)
 			(effects
 				(font
@@ -8284,7 +8363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://componentsearchengine.com/Datasheets/1/744029004.pdf"
+		(property "Datasheet" "http://componentsearchengine.com/Datasheets/1/744025100.pdf"
 			(at 140.97 33.02 0)
 			(effects
 				(font
@@ -8294,7 +8373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "170mΩ 4.7uH 800mA 800mA ±30% SMD,2.8x2.8mm Power Inductors ROHS"
+		(property "Description" "1.1A 10uH 190mΩ 1A ±20% 2828 Power Inductors ROHS"
 			(at 140.97 35.56 0)
 			(effects
 				(font
@@ -8304,7 +8383,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C2649333"
+		(property "JLCPCB" "C2045611"
 			(at 124.46 31.75 0)
 			(effects
 				(font
@@ -9164,6 +9243,82 @@
 			(project "D99"
 				(path "/df79ce8b-a870-46f6-824c-d442122538ae/00000000-0000-0000-0000-00005ca7768a"
 					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 260.35 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6742982b-6102-4022-b415-ad84f3fe9bbb")
+		(property "Reference" "R29"
+			(at 257.81 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22k"
+			(at 260.35 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 258.572 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 260.35 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eefc0f91-e8f1-410c-a3bc-35300c3bfd33")
+		)
+		(pin "2"
+			(uuid "61954312-0d6e-4f2b-a402-f62ea049dba0")
+		)
+		(instances
+			(project "D99"
+				(path "/df79ce8b-a870-46f6-824c-d442122538ae/00000000-0000-0000-0000-00005ca7768a"
+					(reference "R29")
 					(unit 1)
 				)
 			)

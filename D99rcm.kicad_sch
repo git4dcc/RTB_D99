@@ -669,7 +669,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -690,7 +690,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -716,7 +716,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -734,7 +734,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -772,7 +772,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1256,7 +1256,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f0f10e")
-		(property "Reference" "Q2A"
+		(property "Reference" "Q2"
 			(at 86.106 45.8216 0)
 			(effects
 				(font
@@ -1292,16 +1292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+150℃ 100MHz 100mA 150@2.0mA,5.0V 15nA 250mW 45V 5V 650mV PNP SOT-363(SC-88) Bipolar (BJT) ROHS"
-			(at 81.28 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C383198"
+		(property "Description" ""
 			(at 81.28 46.99 0)
 			(effects
 				(font
@@ -1331,7 +1322,7 @@
 		(instances
 			(project "D99"
 				(path "/df79ce8b-a870-46f6-824c-d442122538ae/00000000-0000-0000-0000-00005b6d3404"
-					(reference "Q2A")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1346,7 +1337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f11353")
-		(property "Reference" "Q2B"
+		(property "Reference" "Q2"
 			(at 67.5386 54.7116 0)
 			(effects
 				(font
@@ -1411,7 +1402,7 @@
 		(instances
 			(project "D99"
 				(path "/df79ce8b-a870-46f6-824c-d442122538ae/00000000-0000-0000-0000-00005b6d3404"
-					(reference "Q2B")
+					(reference "Q2")
 					(unit 2)
 				)
 			)
@@ -1581,7 +1572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f1c368")
-		(property "Reference" "Q1A"
+		(property "Reference" "Q1"
 			(at 54.8386 81.3816 0)
 			(effects
 				(font
@@ -1617,16 +1608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+150℃ 100MHz 100mA 150@10uA,5.0V 250mV 380mW 45V 5uA NPN SOT-363 Bipolar (BJT) ROHS"
-			(at 59.69 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C82368"
+		(property "Description" ""
 			(at 59.69 82.55 0)
 			(effects
 				(font
@@ -1656,7 +1638,7 @@
 		(instances
 			(project "D99"
 				(path "/df79ce8b-a870-46f6-824c-d442122538ae/00000000-0000-0000-0000-00005b6d3404"
-					(reference "Q1A")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -1747,7 +1729,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060f1f4d2")
-		(property "Reference" "Q1B"
+		(property "Reference" "Q1"
 			(at 92.456 81.3816 0)
 			(effects
 				(font
@@ -1812,7 +1794,7 @@
 		(instances
 			(project "D99"
 				(path "/df79ce8b-a870-46f6-824c-d442122538ae/00000000-0000-0000-0000-00005b6d3404"
-					(reference "Q1B")
+					(reference "Q1")
 					(unit 2)
 				)
 			)
@@ -1883,15 +1865,15 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "power:+3V3")
 		(at 87.63 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061633835")
-		(property "Reference" "#PWR0110"
+		(uuid "99c26e48-2a0e-4d5a-8b79-95c4f0c41ea6")
+		(property "Reference" "#PWR01"
 			(at 83.82 33.02 0)
 			(effects
 				(font
@@ -1900,8 +1882,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 93.98 33.02 90)
+		(property "Value" "+3V3"
+			(at 91.44 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,12 +1917,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e249c6b-bab9-467a-8cd3-0fef650c55f1")
+			(uuid "184c33b3-8a28-46ee-9d1e-d7d6257926bd")
 		)
 		(instances
 			(project "D99"
 				(path "/df79ce8b-a870-46f6-824c-d442122538ae/00000000-0000-0000-0000-00005b6d3404"
-					(reference "#PWR0110")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)

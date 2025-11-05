@@ -1485,6 +1485,19 @@
 		)
 		(uuid "1f914141-7b56-4630-bf21-e74ee19b532f")
 	)
+	(text "AUX dummy LEDs (optional)"
+		(exclude_from_sim no)
+		(at 196.342 122.174 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+				(thickness 0.2997)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "27f7858e-a385-4d6f-a3e9-6bfeedbb58f6")
+	)
 	(text "#1"
 		(exclude_from_sim no)
 		(at 40.64 48.26 0)
@@ -1521,6 +1534,12 @@
 			(justify left bottom)
 		)
 		(uuid "8092b8ab-ad2d-4dc2-9390-ef5f8e2076be")
+	)
+	(junction
+		(at 242.57 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01b79598-8476-4455-b294-6feb31ea2565")
 	)
 	(junction
 		(at 129.54 46.99)
@@ -1727,6 +1746,12 @@
 		(uuid "c917669d-087d-463b-88a6-4ec81de3fb36")
 	)
 	(junction
+		(at 242.57 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da0c90e0-917c-4978-a8e8-4e0e4205cf5a")
+	)
+	(junction
 		(at 86.36 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1743,6 +1768,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f632f914-7101-4908-b512-248c06fbc016")
+	)
+	(junction
+		(at 242.57 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6849b3d-efbe-4bb2-b544-411c3ac02d69")
 	)
 	(junction
 		(at 86.36 63.5)
@@ -1813,6 +1844,16 @@
 			(type default)
 		)
 		(uuid "03615887-c3fe-4a0f-98d3-d659630d9aa7")
+	)
+	(wire
+		(pts
+			(xy 242.57 129.54) (xy 242.57 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05056cb4-e088-49e9-acfc-e57eb1ab0058")
 	)
 	(wire
 		(pts
@@ -1934,6 +1975,16 @@
 		)
 		(uuid "12cac785-be81-43d5-aa97-592ef4c0b9e9")
 	)
+	(polyline
+		(pts
+			(xy 194.31 156.21) (xy 194.31 118.11)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "13fe3a3e-4fa3-418c-b35c-e3d7e400a99b")
+	)
 	(wire
 		(pts
 			(xy 81.28 68.58) (xy 86.36 68.58)
@@ -2003,6 +2054,16 @@
 			(type default)
 		)
 		(uuid "190e867d-9640-483f-ba45-bacde2ab26cd")
+	)
+	(wire
+		(pts
+			(xy 236.22 140.97) (xy 242.57 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b413f6d-2ede-45f8-b355-cf82e56e5da6")
 	)
 	(wire
 		(pts
@@ -2224,6 +2285,16 @@
 		)
 		(uuid "321f8341-c259-4711-8741-299c778c6c83")
 	)
+	(polyline
+		(pts
+			(xy 194.31 118.11) (xy 194.31 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324f0c9f-7fd7-4c77-a874-5b3c32edeec4")
+	)
 	(wire
 		(pts
 			(xy 162.56 139.7) (xy 167.64 139.7)
@@ -2316,6 +2387,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 140.97) (xy 242.57 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c2b0fec-4182-4ae3-aadb-e428cc6d8ab3")
+	)
+	(wire
+		(pts
 			(xy 81.28 73.66) (xy 86.36 73.66)
 		)
 		(stroke
@@ -2373,6 +2454,16 @@
 			(type default)
 		)
 		(uuid "3f7a084f-509f-4bc4-b5ee-d9426baef400")
+	)
+	(polyline
+		(pts
+			(xy 260.35 156.21) (xy 195.58 156.21)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "3feec003-6888-40f2-8f46-c1f4e97d9de7")
 	)
 	(wire
 		(pts
@@ -2433,6 +2524,26 @@
 			(type default)
 		)
 		(uuid "44b868bb-3f70-489c-8082-a5050182913f")
+	)
+	(wire
+		(pts
+			(xy 242.57 133.35) (xy 242.57 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b93640-7a53-41a5-a40f-0834caf16808")
+	)
+	(wire
+		(pts
+			(xy 236.22 129.54) (xy 242.57 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "477cd602-d00b-445d-9a79-63c8da854312")
 	)
 	(wire
 		(pts
@@ -2503,6 +2614,16 @@
 			(type default)
 		)
 		(uuid "5106c93d-1880-42ed-a93d-19cee6b40b84")
+	)
+	(polyline
+		(pts
+			(xy 260.35 118.11) (xy 260.35 156.21)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "521f78b1-d6d9-44b3-921c-d9ee0b884cf7")
 	)
 	(wire
 		(pts
@@ -2616,6 +2737,26 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 133.35) (xy 220.98 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65503de8-6816-4314-abd0-120ac6f680a4")
+	)
+	(wire
+		(pts
+			(xy 213.36 129.54) (xy 220.98 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662316d1-12f7-4321-8d22-9a582f22ad48")
+	)
+	(wire
+		(pts
 			(xy 162.56 137.16) (xy 167.64 137.16)
 		)
 		(stroke
@@ -2686,6 +2827,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 133.35) (xy 242.57 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f30def9-9711-4693-8f68-9e4d05c45b53")
+	)
+	(wire
+		(pts
 			(xy 151.13 66.04) (xy 154.94 66.04)
 		)
 		(stroke
@@ -2736,6 +2887,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 140.97) (xy 220.98 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7593b556-a583-4150-8571-08e0527d4cd7")
+	)
+	(wire
+		(pts
 			(xy 69.85 58.42) (xy 73.66 58.42)
 		)
 		(stroke
@@ -2763,6 +2924,16 @@
 			(type default)
 		)
 		(uuid "7b76804e-cb7f-4878-8f67-59dc9fdb3ccf")
+	)
+	(wire
+		(pts
+			(xy 236.22 137.16) (xy 242.57 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c8cbf9f-f0f6-445e-a1c1-7a248a1bbd03")
 	)
 	(wire
 		(pts
@@ -3103,6 +3274,16 @@
 			(type default)
 		)
 		(uuid "a121ec33-4b14-4c7d-8438-5a39c66fceae")
+	)
+	(wire
+		(pts
+			(xy 242.57 137.16) (xy 242.57 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1826778-8098-44de-8685-38f23a219b4b")
 	)
 	(wire
 		(pts
@@ -3546,6 +3727,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 137.16) (xy 220.98 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc2f102-6020-4b9b-a553-c0f00ae35d8d")
+	)
+	(wire
+		(pts
 			(xy 34.29 134.62) (xy 39.37 134.62)
 		)
 		(stroke
@@ -3653,6 +3844,16 @@
 			(type dash)
 		)
 		(uuid "fd6df17c-b4a8-4245-8f07-fd96fa35b80d")
+	)
+	(polyline
+		(pts
+			(xy 194.31 118.11) (xy 260.35 118.11)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "fec5f658-5cda-4d33-b037-edb10270d428")
 	)
 	(wire
 		(pts
@@ -3964,6 +4165,26 @@
 			)
 		)
 	)
+	(global_label "AUX4"
+		(shape input)
+		(at 213.36 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9b35b45-4501-45ca-8521-3dd2a22b1740")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.36 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED.ds2"
 		(shape input)
 		(at 34.29 127 180)
@@ -3984,6 +4205,26 @@
 			)
 		)
 	)
+	(global_label "AUX2"
+		(shape input)
+		(at 213.36 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc6408ca-5866-44e9-b4f9-6366665fbb14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.36 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{LED.oe}"
 		(shape input)
 		(at 34.29 142.24 180)
@@ -3996,6 +4237,26 @@
 		(uuid "c006fe0f-0704-4da2-b31f-f307ac7fd001")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 34.29 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUX1"
+		(shape input)
+		(at 213.36 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cfc0d9d3-cc67-4697-aa49-2294a7f62716")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.36 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,6 +4297,26 @@
 		(uuid "d21ce2e5-3547-4284-9ae6-c5faa0dbf16a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUX3"
+		(shape input)
+		(at 213.36 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0f782bf-2a07-4dd8-934b-9f1a37de1576")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.36 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10906,6 +11187,646 @@
 			(project "D99a"
 				(path "/013e27ab-e668-4351-8569-d2c468a7aae1/00000000-0000-0000-0000-00005ddd579a"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 242.57 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16b72bc8-0789-4f8d-8afa-6e33f6450eb1")
+		(property "Reference" "#PWR01"
+			(at 242.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 242.697 149.1742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "819c9883-8547-472b-88d4-ad6127d6cdbf")
+		)
+		(instances
+			(project "D99a"
+				(path "/013e27ab-e668-4351-8569-d2c468a7aae1/00000000-0000-0000-0000-00005ddd579a"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 232.41 133.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "49daf3b5-9ac6-4744-9615-aa4929e884e4")
+		(property "Reference" "D35"
+			(at 232.5878 126.873 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 232.5878 129.1844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 232.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb0f88ca-2f94-45cc-a6b8-91b6fdf6503b")
+		)
+		(pin "2"
+			(uuid "1cc2b33e-d04c-4ff1-990a-59fd48e7f825")
+		)
+		(instances
+			(project "D99a"
+				(path "/013e27ab-e668-4351-8569-d2c468a7aae1/00000000-0000-0000-0000-00005ddd579a"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 224.79 140.97 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "593b05db-d63c-4d64-bbf3-fc01be181407")
+		(property "Reference" "R41"
+			(at 219.71 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 224.79 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 224.79 142.748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 298.45 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22978"
+			(at 298.45 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d2097aaa-4962-45a4-9142-6b6ae91ca881")
+		)
+		(pin "1"
+			(uuid "4c434559-f8ad-4f14-bd11-09caf39c408e")
+		)
+		(instances
+			(project "D99a"
+				(path "/013e27ab-e668-4351-8569-d2c468a7aae1/00000000-0000-0000-0000-00005ddd579a"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 224.79 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "6abf77c7-f165-4700-a090-a1b19c79bdc1")
+		(property "Reference" "R38"
+			(at 219.71 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 224.79 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 224.79 131.318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 298.45 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22978"
+			(at 298.45 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f754ec5e-8a13-4cc3-ade8-7cd8c03c7068")
+		)
+		(pin "1"
+			(uuid "9f4e7611-19dc-4907-a66e-733edb0bd187")
+		)
+		(instances
+			(project "D99a"
+				(path "/013e27ab-e668-4351-8569-d2c468a7aae1/00000000-0000-0000-0000-00005ddd579a"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 232.41 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "8d8bc765-c53b-416f-bbae-727f0383ea5e")
+		(property "Reference" "D36"
+			(at 232.5878 130.683 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 232.5878 132.9944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "226ec79f-8e33-4f68-8331-f2785befa6d8")
+		)
+		(pin "2"
+			(uuid "b1f43c6e-c81a-4b33-b662-82531530216e")
+		)
+		(instances
+			(project "D99a"
+				(path "/013e27ab-e668-4351-8569-d2c468a7aae1/00000000-0000-0000-0000-00005ddd579a"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 232.41 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "c82efbc1-6f01-4e7e-89ec-24d90645308b")
+		(property "Reference" "D37"
+			(at 232.5878 134.493 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 232.5878 136.8044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 232.41 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "410bca36-fc27-4d36-b778-832e88e0b5ca")
+		)
+		(pin "2"
+			(uuid "5549dd3e-84e7-4c6d-a719-4f7f8ab9e373")
+		)
+		(instances
+			(project "D99a"
+				(path "/013e27ab-e668-4351-8569-d2c468a7aae1/00000000-0000-0000-0000-00005ddd579a"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 224.79 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "cdc38700-509d-454f-9a7e-9bb34701dc62")
+		(property "Reference" "R39"
+			(at 219.71 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 224.79 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 224.79 135.128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 298.45 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22978"
+			(at 298.45 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3a9457cb-ec9d-473c-8152-e9dbcd604854")
+		)
+		(pin "1"
+			(uuid "5ac0de9d-5365-4a84-972c-585d19b881ee")
+		)
+		(instances
+			(project "D99a"
+				(path "/013e27ab-e668-4351-8569-d2c468a7aae1/00000000-0000-0000-0000-00005ddd579a"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 224.79 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "d02318ac-f876-4c16-94c5-3dd4e0c6cda4")
+		(property "Reference" "R40"
+			(at 219.71 135.89 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 224.79 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 224.79 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 100mW 3.3kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+			(at 298.45 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22978"
+			(at 298.45 218.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "06bacd03-c860-41ba-95e2-be9db292a5f7")
+		)
+		(pin "1"
+			(uuid "1256f19e-68ef-415b-be9d-492b57a90dc2")
+		)
+		(instances
+			(project "D99a"
+				(path "/013e27ab-e668-4351-8569-d2c468a7aae1/00000000-0000-0000-0000-00005ddd579a"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 232.41 129.54 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "e02ef288-6b5a-4f1e-a602-32282429bcbb")
+		(property "Reference" "D34"
+			(at 232.5878 123.063 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LED"
+			(at 232.5878 125.3744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "353ef36b-ef29-4b4b-a891-8eecec3424e6")
+		)
+		(pin "2"
+			(uuid "8b33b065-dc5b-4520-a518-244a15ce54c8")
+		)
+		(instances
+			(project "D99a"
+				(path "/013e27ab-e668-4351-8569-d2c468a7aae1/00000000-0000-0000-0000-00005ddd579a"
+					(reference "D34")
 					(unit 1)
 				)
 			)
