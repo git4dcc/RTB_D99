@@ -2665,6 +2665,16 @@
 		)
 		(uuid "4e420f9e-a203-4229-82a8-e2df11105cbb")
 	)
+	(text "(or 5.0V)"
+		(exclude_from_sim no)
+		(at 264.668 104.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "569c6982-f163-49c8-b38c-a3de42abce0d")
+	)
 	(text "ACK"
 		(exclude_from_sim no)
 		(at 99.06 140.97 0)
@@ -2713,7 +2723,7 @@
 		)
 		(uuid "899cae0c-a025-45a1-9dc0-f4f1fc08ecca")
 	)
-	(text "3.3V: R25 = 120 Ohm\n5.1V: R25 = 220 Ohm\nUse 1% Resistors for R25,R26"
+	(text "3.3V: R25 = 120 Ohm\n5.0V: R25 = 210 Ohm\nUse 1% Resistors for R25,R26"
 		(exclude_from_sim no)
 		(at 228.092 95.25 0)
 		(effects
@@ -3172,8 +3182,20 @@
 		(uuid "68cfc383-282d-4aea-858f-7256203d4bf5")
 	)
 	(no_connect
+		(at 100.33 151.13)
+		(uuid "7b3c8862-edee-40a0-a6bd-812fda41b9ee")
+	)
+	(no_connect
+		(at 107.95 156.21)
+		(uuid "81fbe662-1f97-4cdb-b7c8-5d54fcd2dfde")
+	)
+	(no_connect
 		(at 245.11 45.72)
 		(uuid "c8c2eb83-39af-4ffa-bd92-089ee7184f6e")
+	)
+	(no_connect
+		(at 107.95 146.05)
+		(uuid "e40fa72e-ca07-4338-a542-65fd388257ba")
 	)
 	(polyline
 		(pts
@@ -5716,7 +5738,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "200"
+		(property "Value" "150"
 			(at 125.73 161.29 90)
 			(effects
 				(font
@@ -5743,7 +5765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 200Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 150Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 125.73 160.02 90)
 			(effects
 				(font
@@ -5752,7 +5774,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C8218"
+		(property "LCSC Part #" "C22808"
 			(at 125.73 160.02 90)
 			(effects
 				(font
@@ -6067,7 +6089,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060facd59")
-		(property "Reference" "Q3B1"
+		(property "Reference" "Q3"
 			(at 128.016 171.5516 0)
 			(effects
 				(font
@@ -6142,7 +6164,7 @@
 		(instances
 			(project "D99"
 				(path "/df79ce8b-a870-46f6-824c-d442122538ae/00000000-0000-0000-0000-00005ca7768a"
-					(reference "Q3B1")
+					(reference "Q3")
 					(unit 2)
 				)
 			)
@@ -9330,6 +9352,97 @@
 			(project "D99"
 				(path "/df79ce8b-a870-46f6-824c-d442122538ae/00000000-0000-0000-0000-00005ca7768a"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BC847BDW1")
+		(at 105.41 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "911c6695-47ec-43ff-b4ce-df50a545d44a")
+		(property "Reference" "Q3"
+			(at 110.236 149.9616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC847BDW1"
+			(at 110.236 152.273 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 110.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF"
+			(at 105.41 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+150℃ 100MHz 100mA 150@10uA,5.0V 250mV 380mW 45V 5uA NPN SOT-363 Bipolar (BJT) ROHS"
+			(at 105.41 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C82368"
+			(at 105.41 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "27dbbf1d-6c17-439e-bc7a-49a51bd013ee")
+		)
+		(pin "1"
+			(uuid "3f81d361-f45e-4509-8e60-c76cc1e033a6")
+		)
+		(pin "4"
+			(uuid "d6398de5-df16-45e3-a388-db1a55bdc36f")
+		)
+		(pin "6"
+			(uuid "d849d395-9a61-43e3-a772-1ad008dcc822")
+		)
+		(pin "5"
+			(uuid "1a6e306c-ba39-4c5a-aee5-101326b2aa79")
+		)
+		(pin "3"
+			(uuid "3d2ac3bc-96b0-433d-b7a2-ec57eab2338e")
+		)
+		(instances
+			(project "D99"
+				(path "/df79ce8b-a870-46f6-824c-d442122538ae/00000000-0000-0000-0000-00005ca7768a"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
