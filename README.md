@@ -123,15 +123,9 @@ Example: **D99F0001**.hex
 ## UPDI / Fuses
 The fuse settings as well as the P-code (D99Pxxxx.hex) has to be installed by using UPDI.<br>
 
-<details>
-<summary>Details</summary>
-<br>
-
 | Fuses Setting |
 | --- |
 |<img src=supplemental/images/D99_fuses.jpg width=500>|
-
-</details>
 
 # Images
 <img src="supplemental/images/D99_usecase4.jpg" width=260> <img src="supplemental/images/D99_usecase2.jpg" width=508>
