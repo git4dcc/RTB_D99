@@ -7,14 +7,10 @@ My Homebrew RTB D99 is an advanced, open-source decoder core (AVR64DA48) designe
 - **Flicker-Free Power:** Includes charging logic for external Polymer or Supercapacitors for robust power backup.
 - **Real-Time Diagnostics:** Harness the power of Railcom DYN to transmit vital data, including Quality of Service (QoS), track voltage, and temperature, back to your central station.
 - **DIY High-Density:** Fully open-source KiCad design (4-layer PCB) ready for reflow assembly.
+- **WS28xx bus**: Can drive up to 32 LEDs on a WS28xx serial bus
 
-LED base
-- [HO Roco #44741 coach](ledbase/Roco_44741)
-
-<br>
-
-> [!CAUTION]
-> This project is **work in progress** and there may be (hope not) changes to the overall design if the current turns out to be not practical.
+LED base carrier
+- [Example-1: HO Roco #44741 coach](ledbase/Roco_44741)
 
 <br>
 
@@ -42,8 +38,10 @@ LED base
   - 4 AUX ports (3.3V logic level)
   - AUX ports my be used for Servo
 - **LED ports**
-  - designed for 74HC595 shift register usage
-  - allows up to 32 individual LEDs
+  - designed for
+    - SR: 74HC595 shift registers
+    - WS: WS2811 neo pixel
+  - up to 32 individual LEDs using either SR or WS
 - SUSI 3.3V
 - 2.8V SCAP (optional, external to PCB)
 - 16V Polymer Caps (optional, external to PCB)
