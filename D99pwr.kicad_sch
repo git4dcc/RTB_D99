@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "DCC Ambient Decoder Prototype")
-		(date "2025-10-14")
-		(rev "1")
+		(date "2026-01-19")
+		(rev "1.1")
 		(company "Frank Schumacher")
 		(comment 1 "D99.1")
 		(comment 2 "2.8V SCAPs")
@@ -2723,7 +2723,7 @@
 		)
 		(uuid "899cae0c-a025-45a1-9dc0-f4f1fc08ecca")
 	)
-	(text "3.3V: R25 = 120 Ohm\n5.0V: R25 = 210 Ohm\nUse 1% Resistors for R25,R26"
+	(text "3.3V: R25 = 120k Ohm\n5.0V: R25 = 210k Ohm\nUse 1% Resistors for R25,R26"
 		(exclude_from_sim no)
 		(at 228.092 95.25 0)
 		(effects
@@ -9422,16 +9422,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "27dbbf1d-6c17-439e-bc7a-49a51bd013ee")
+			(uuid "27dbbf1d-6c17-439e-bc7a-49a51bd013ef")
 		)
 		(pin "1"
-			(uuid "3f81d361-f45e-4509-8e60-c76cc1e033a6")
+			(uuid "3f81d361-f45e-4509-8e60-c76cc1e033a7")
 		)
 		(pin "4"
 			(uuid "d6398de5-df16-45e3-a388-db1a55bdc36f")
 		)
 		(pin "6"
-			(uuid "d849d395-9a61-43e3-a772-1ad008dcc822")
+			(uuid "d849d395-9a61-43e3-a772-1ad008dcc823")
 		)
 		(pin "5"
 			(uuid "1a6e306c-ba39-4c5a-aee5-101326b2aa79")

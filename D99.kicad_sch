@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "DCC Ambient Decoder Prototype")
-		(date "2025-10-14")
-		(rev "1")
+		(date "2026-01-19")
+		(rev "1.1")
 		(company "Frank Schumacher")
 		(comment 1 "D99.1")
 		(comment 2 "2.8V SCAPs")
