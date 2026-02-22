@@ -1,9 +1,10 @@
 # RTB_D99
-[![Real-time Bus (RTB)](https://img.shields.io/badge/RTB_Project-FF6699)](https://www.rtb4dcc.de)
-[![Kicad_Libs](https://img.shields.io/badge/Kicad_Libs-29C7FF)](https://github.com/git4dcc/RTB_SamacSys)
+[![Forum Project](https://img.shields.io/badge/Forum_Project-FF6699)](https://forum.opendcc.de)
+[![Kicad_Libs](https://img.shields.io/badge/Kicad_Libs-29C7FF)](https:///../../../../git4dcc/RTB_SamacSys)
 [![Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-lightgray)](https://www.apache.org/licenses/LICENSE-2.0)
 
-My Homebrew RTB D99 is an advanced, open-source decoder core (AVR64DA48) designed for serious modelers. It provides individual, high-density control for up to 32 LEDs and 4 auxiliary ports. More than just control, this core is engineered for ultimate reliability:
+## This is a [opendcc](https://forum.opendcc.de/viewtopic.php?t=10443) forum project
+The D99 is an advanced, open-source decoder core (AVR64DA48) designed for serious modelers. It provides individual, high-density control for up to 32 LEDs and 4 auxiliary ports. More than just control, this core is engineered for ultimate reliability:
 - **Flicker-Free Power:** Includes charging logic for external Polymer or Supercapacitors for robust power backup.
 - **Real-Time Diagnostics:** Harness the power of Railcom DYN to transmit vital data, including Quality of Service (QoS), track voltage, and temperature, back to your central station.
 - **DIY High-Density:** Fully open-source KiCad design (4-layer PCB) ready for reflow assembly.
@@ -35,7 +36,7 @@ LED base carrier
   - POM, xPOM
   - DYN: QoS, Track-Voltage, Scap-Voltage, Temp, Ambient light
 - **AUX ports**
-  - 4 AUX ports (3.3V logic level)
+  - 4 dimmable AUX ports (3.3V logic level)
   - AUX ports my be used for Servo
 - **LED ports**
   - designed for
